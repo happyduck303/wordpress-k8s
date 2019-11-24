@@ -1,4 +1,4 @@
-#command build and deploy in specific namespace in k8s
+<b>command build and deploy in specific namespace in k8s</b>
 
 kubectl create -f pod.yaml -n staging
 kubectl create -f deployment.yaml -n staging
