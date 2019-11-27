@@ -1,7 +1,5 @@
 ## command build and deploy in specific namespace in k8s
 
-<<<<<<< HEAD
-=======
 
 ```
 >>>>>>> 8c75f7386467837b9106db23524e06fa21e756fd
