@@ -1,12 +1,21 @@
-## command build and deploy in specific namespace in k8s
-
-
+# command build and deploy in specific namespace in k8s
+## Staging
 ```
->>>>>>> 8c75f7386467837b9106db23524e06fa21e756fd
+
 kubectl create -f pod.yaml -n staging
 kubectl create -f deployment.yaml -n staging
 kubectl apply -f deployment.yaml -n staging
 kubectl create -f service.yaml -n staging
 kubectl apply -f service.yaml -n staging
 kubectl create -f wordpress.yaml -n staging
+```
+## Production
+```
+
+kubectl create -f pod.yaml -n production
+kubectl create -f deployment.yaml -n production
+kubectl apply -f deployment.yaml -n production
+kubectl create -f service.yaml -n production
+kubectl apply -f service.yaml -n production
+kubectl create -f wordpress.yaml -n production
 ```
