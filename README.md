@@ -1,4 +1,4 @@
-# build and deploy in specifics namespace in k8
+# Build and deploy in specific namespace in k8
 ## Staging
 ```
 
